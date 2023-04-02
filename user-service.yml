@@ -10,4 +10,4 @@ token:
   secret: '{cipher}AQDNt+2+TcHh3E7swxpyOujGWP0uB72vt1NEFUzjqwMt0ypJc7rJyu08CTlkCXQBJxGVqWYW8TlfvoPS6liu7KmZlcRA0VA/q4ApGbR1dBfep5PaQWoQjiuq/NJfESjkbUtuLJm8kUCGQf4ssp3AInAFX/sj17HqdbfVf7pUPBByf6t6oIq7CPQ2ggbNg0FD01ZzM+k8JgkqODSKxz2GXImhwfNw1t67SX+Ob8lGGQahlCCMrH97uagtWWY7cs88tvaNurD1520C/KHj0rJCaXZpppOmQU+DwmsCKIsHiPmmWIBlJ7JexNyCZmaGqK/HOVfPugijVlhh9iDAkAmeSE7Vi7FVLZIZUQdXvp0/7+iEkztA3M/roTKDSQzvEuGBr2E7xgJKPXrRo3lu3n5mLN67'
 
 gateway:
-  ip: 127.0.0.1
+  ip: 192.168.0.4
