@@ -2,12 +2,12 @@ spring:
   datasource:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
-    username: '{cipher}AQCgs7xfskf7HL+u46cUjg2xSYmGFBqAJfES0XmKJjqAjuTQ3EI0nGpiEaOeemlrlcH5mQXoic4P9u9Y47sqNBZYxEBlKjAhb7mlMXVrujWzMsyQjOHvp7qOohvJaEFh60rTRCfg4CkuyHNMKeA9wGoqpb537oBGEeDEDps/0tCG1VEYL9Dz73+J2nb64hh01bFYDkguNbb8QBQMU58NZgVO3Pwu2yq6nEZPAKRJuzORvGux1GZ1N2LZrqAzOCn7GktPC+bZQvJk4MmLVZmrjwEQxSr6ridhJu+jJyKFjInYnB9lPXOs5howoZtljtJPhNmvxKpvbCTbkblCjhmvPHOE2aEHgFcxxORYPj0kvIOTOIoIdMCVrokzzsu5XYp8gKc='
-    password: '{cipher}AQCnFxPIZO/KEZBB3168KSGdQqEwg14gw/jFYRMOspk9sVYfckXLVUzNnfTUx6GXjzSrFbsdpFAPmvmJtdlS8DPXR46S/YMAW26fVY9LNoimTi7D00H3bcELfTv5DkQV4cCHcgxUl/a8GSWwVnMs8Fcj2yycFG3ZuaO+S12X3Hidb2QCU+c+oZACh9IJdWqmJuyEtNGqQALLNd5HDwLFGWGogI2CQtoTULe25mQKtj7Y5TZSQODFZyycrNDCpmG9drkDlMmJJuRKu07Mzln/wz6EdQsvzkIEOAet1bapJXXhJ5SreVra522r5nQBC1oykjeHk6k9zpDKtLFbAMGwlPkC3x0friXIrcCBLjpAQnK0MdZRbiUY1hRT+TnXc7ZyC9A=' 
+    username: sa
+    password: 
 
 token:
   expiration_time: 86400000
-  secret: '{cipher}AQDNt+2+TcHh3E7swxpyOujGWP0uB72vt1NEFUzjqwMt0ypJc7rJyu08CTlkCXQBJxGVqWYW8TlfvoPS6liu7KmZlcRA0VA/q4ApGbR1dBfep5PaQWoQjiuq/NJfESjkbUtuLJm8kUCGQf4ssp3AInAFX/sj17HqdbfVf7pUPBByf6t6oIq7CPQ2ggbNg0FD01ZzM+k8JgkqODSKxz2GXImhwfNw1t67SX+Ob8lGGQahlCCMrH97uagtWWY7cs88tvaNurD1520C/KHj0rJCaXZpppOmQU+DwmsCKIsHiPmmWIBlJ7JexNyCZmaGqK/HOVfPugijVlhh9iDAkAmeSE7Vi7FVLZIZUQdXvp0/7+iEkztA3M/roTKDSQzvEuGBr2E7xgJKPXrRo3lu3n5mLN67'
+  secret: token-secret
 
 gateway:
   ip: 192.168.0.6
